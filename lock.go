@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	webdav "github.com/koofr/go-webdav"
+	webdav "golang.org/x/net/webdav"
 )
 
 const (

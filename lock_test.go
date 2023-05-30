@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	webdav "github.com/koofr/go-webdav"
+	webdav "golang.org/x/net/webdav"
 )
 
 type RedisLSNode struct {
@@ -234,9 +234,9 @@ var lockTestDurations = []time.Duration{
 
 // lockTestNames are the names of a set of mutually compatible locks. For each
 // name fragment:
-//  - _ means no explicit lock.
-//  - i means a infinite-depth lock,
-//  - z means a zero-depth lock,
+//   - _ means no explicit lock.
+//   - i means a infinite-depth lock,
+//   - z means a zero-depth lock,
 var lockTestNames = []string{
 	"/_/_/_/_/z",
 	"/_/_/i",
