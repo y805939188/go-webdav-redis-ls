@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/garyburd/redigo/redis"
+	"github.com/gomodule/redigo/redis"
 	webdav "golang.org/x/net/webdav"
 )
 

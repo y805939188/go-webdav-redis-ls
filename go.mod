@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/garyburd/redigo v1.6.4
+	github.com/gomodule/redigo v1.8.9
 	github.com/koofr/go-webdav-redis-ls v0.0.0-20190504181402-8ade13252e80
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.7
